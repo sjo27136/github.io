@@ -1,0 +1,57 @@
+.frame{
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+*{
+    color:black;
+}
+
+.profile-section{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 50px 75px;
+}
+
+.profile>h1{
+    margin: 0px;
+    margin-bottom: 30px;
+}
+
+.profile>p{
+    margin-bottom: 30px;
+}
+
+#profile-picture{
+    width: 250px;
+    margin-right: 90px;
+}
+
+.nav>li{
+    list-style: none;
+    display:flex;
+    justify-content: flex-start;
+    width: 400px;
+    height:50px;
+    margin-top: 20px;
+}
+
+.nav{
+    list-style: none;
+    display:flex;
+    justify-content: flex-start;
+    width: 400px;
+    height:50px;
+}
+
+.profile{
+    list-style: none;
+    margin: 10px;
+
+}
+
+.introduction{
+    margin: 30px 100px;
+}
